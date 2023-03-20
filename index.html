@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stack Queue Web</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="tailwindStyles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pacifico&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="fonts.css">
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stack Queue Web</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="tailwindStyles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fonts.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
     tailwind.config = {
       theme: {
         extend: {
@@ -32,31 +33,55 @@
     /* <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> */
   </style>
 </head>
+
 <body class="content-center bg-purple-700">
-    <h1 class="place-content-center bg-black text-white bg-blend-multiply h-15 pt-3 pb-3 mb-2"><div class="text-center pt-2">SD Projects</div></h1>
-<nav class="flex bg-red-600 justify-center px-10 rounded-md pt-2 pb-2 mx-8">
-    
+  <h1 class="place-content-center bg-black text-white bg-blend-multiply h-15 pt-3 pb-3 mb-2">
+    <div class="text-center pt-2">SD Projects</div>
+  </h1>
+  <nav class="flex bg-red-600 justify-center px-10 rounded-md pt-2 pb-2 mx-8">
+
     <ul class="flex space-x-4 mx-2 font-mono px-7 ">
-        <li class="hover:bg-blend-darken hover:text-red-500 active:bg-sky-500 focus:bg-pink-700 border border-white rounded-md"><a href="https://twitter.com/Subhaji27016855" target="_blank">HOME</a></li>
-        <li class="hover:bg-blend-darken hover:text-green-500 active:bg-sky-500 focus:bg-pink-700 border border-white rounded-md"><a href="https://p.paytm.me/xCTH/5ahvpmtu" target="_blank" rel="noopener noreferrer">DONATE</a></li>
-        <li class="hover:bg-blend-darken hover:text-yellow-400 active:bg-sky-500 focus:bg-pink-700 border border-white rounded-md"><a href="mailto:subhajit13dhar@gmail.com" target="_blank" rel="noopener noreferrer"></a>MAIL</li>
+      <li
+        class="hover:bg-blend-darken hover:text-red-500 active:bg-sky-500 focus:bg-pink-700 border border-white rounded-md">
+        <a href="https://twitter.com/Subhaji27016855" target="_blank">HOME</a></li>
+      <li
+        class="hover:bg-blend-darken hover:text-green-500 active:bg-sky-500 focus:bg-pink-700 border border-white rounded-md">
+        <a href="https://p.paytm.me/xCTH/5ahvpmtu" target="_blank" rel="noopener noreferrer">DONATE</a></li>
+      <li
+        class="hover:bg-blend-darken hover:text-yellow-400 active:bg-sky-500 focus:bg-pink-700 border border-white rounded-md">
+        <a href="mailto:subhajit13dhar@gmail.com" target="_blank" rel="noopener noreferrer"></a>MAIL</li>
     </ul>
-</nav>
-<p class=" bg-orange-400 border text-center animate-bounce mx-5 my-3">hola here's my code</p>
-<main class=" mx-5 my-3 flex">
-    
-    <div class="bg-fuchsia-500 flex w-1/2 justify-center">
-        <a href="queue.html " target="_blank" class="hover:text-orange-400 border border-white rounded-sm">Queue</a>
+  </nav>
+  <p class=" bg-orange-400 border text-center animate-bounce mx-6 my-3 rounded-2xl">hola here's my code</p>
+  <main class=" mx-5 my-3 ">
+    <div class="flex">
+      <div class="bg-fuchsia-500 flex w-1/2 justify-center h-9 rounded-3xl">
+        <a href="queue.html " target="_blank"
+          class="hover:text-orange-400 border border-white rounded-sm animate-bounce">Queue</a>
+      </div>
+      <div class="bg-green-900 flex w-1/2 justify-center h-9 rounded-md">
+        <a href="stack.html" target="_blank" rel="noopener noreferrer"
+          class="hover:text-orange-400 border border-white animate-bounce">STACK</a>
+      </div>
     </div>
-    <div class="bg-green-900 flex w-1/2 justify-center"> 
-        <a href="stack.html" target="_blank" rel="noopener noreferrer" class="hover:text-orange-400 border border-white">STACK</a>
+    <div class="flex mt-3 mx-4 ">
+      <div class="bg-slate-500 text-center text-white w-1/2 justify-center  h-9 rounded-lg " >
+        <a href="linear_search.html" target="_blank" rel="noopener noreferrer"
+          class="hover:text-orange-400  border border-emerald-500 animate-bounce p-1 ">linear search</a>
+      </div>
+      <div class="bg-lime-600 text-center text-white w-1/2 justify-center h-9  rounded-xl ">
+        <a href="binary_search.html" target="_blank" rel="noopener noreferrer"
+          class="hover:text-orange-400 border border-emerald-90000 animate-bounce p-1 ">Binary Search search</a>
+      </div>
     </div>
-    
-</main>
-<p class="text-center text-gray-800 text-3xl blur-1xl">Click on the data structures to get their raw code</p>
-<footer class="bg-black text-center text-white bottom-0 fixed inset-x-0">
+
+
+  </main>
+  <p class="text-center text-gray-800 text-3xl blur-1xl">Click on the data structures to get their raw code</p>
+  <footer class="bg-black text-center text-white bottom-0 fixed inset-x-0">
     <p>@CONTENT CREATOR RIGHTS@</p>
-</footer>
-    
+  </footer>
+
 </body>
+
 </html>
